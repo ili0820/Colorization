@@ -6,7 +6,7 @@ import os
 data_type=["test","result"]
 
 origin_data_paths = os.path.join("srdata/" + data_type[0])
-result_data_paths = os.path.join("srdata/" + data_type[1])
+result_data_paths = os.path.join("output/" + data_type[1])
 
 origin_filenames = os.listdir(origin_data_paths)
 result_filenames = os.listdir(result_data_paths)
